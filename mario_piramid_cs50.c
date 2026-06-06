@@ -1,0 +1,16 @@
+#include<stdio.h>
+void draw(int n);
+int main (void){
+    int height = 0 ;
+    printf("enter the height : ");
+    scanf("%d",&height);
+draw(height);
+return 0;
+}
+void draw(int n) {
+for (int i = 0 ; i < n ; i++){
+for(int j = 0 ; j < i+1 ; j++){
+    printf("#");
+} printf("\n");
+}
+}
